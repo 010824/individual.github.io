@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: rgb(48, 48, 48);
+    color: aliceblue;
+}
+header ul{
+    line-height: 50px;
+}
+header li{
+    display:inline;
+    margin:  0 3vw;
+}
+header a{
+    color: aliceblue;
+}
+footer{
+    padding: 10px 0 20px;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#side{
+    width:1000px;
+	font-size:18px;
+	background: white url(./images/bksub.gif) repeat-y;
+	margin: 0 auto;
+}
