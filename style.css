@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+header ul{
+    line-height: 50px;
+}
+header li{
+    margin:  0 3vw;
+}
+header a{
+    color: white;
+}
+main{
+    margin-bottom: 40px;
+}
+main a{
+    color: blue;
+    font-size: 20px;
+}
+footer{
+    margin: 30px 0;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+}
+.side{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 100%;
+    width: 8%;
+}
+.word{
+    margin: 10px 20px;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
