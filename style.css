@@ -9,18 +9,12 @@ header{
 header ul{
     line-height: 50px;
 }
-header li{
-    margin:  0 3vw;
-}
 header a{
     color: white;
+    margin:  0 3vw;
 }
 main{
     margin-bottom: 40px;
-}
-main a{
-    color: blue;
-    font-size: 20px;
 }
 footer{
     margin: 30px 0;
@@ -30,6 +24,7 @@ li{
 }
 a{
     text-decoration: none;
+    font-size: 20px;
 }
 a:hover{
     text-decoration: underline;
@@ -43,19 +38,26 @@ h2{
 p{
     font-size: 20px;
 }
+hr{
+    width: 90vw;
+    margin: 0 5vw;
+}
 .container{
     display: flex;
 }
 .side{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     background-color: black;
-    height: 100%;
-    width: 8%;
+    height:auto;
+    width: 10vw;
+    font-size: 30px;
+}
+.side a{
+    color: white;
 }
 .word{
     margin: 10px 20px;
-    width: 90%;
+    width: 90vw;
 }
 
 

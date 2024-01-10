@@ -4,43 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首頁</title>
-    <link rel="stylesheet" href="style.css">
     <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
     main{
         background-color:black;
-        padding: 10vw 0;
-        color: aliceblue;
-        font-size: 20px;
+        color: white;
     }
     h1{
-        font-size: 100px;
-        color: aliceblue;    
-    }
-    section{
-        margin: 40px;
-    }
-    main ul{
-        color: aliceblue;
+        font-size: 150px;
+        margin-bottom: 10vh;
     }
     main li{
         display:inline;
-        margin:  0 2vw;
+        font-size: 2vw;
     }
     main a{
-        color: aliceblue;
+        color: white;
+        text-decoration: none;
+        margin:  0 1.5vw;
     }
     main a:hover{
-        font-size: 20px;
+        text-decoration: underline;
+    }
+    footer{
+        height: 7vh;
+    }
+    .home{
+       height: 100vh;
+    }
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 98vw;
+    }
+    .intropage{
+        background-color: dimgray;
+        height: 90vh;
+    }
+    .intro{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10vh;
+    }
+    .copyright{
+        margin-top: 3vh;
+    }
+    .word30{
+        font-size: 30px;
+    }
+    .word60{
+        font-size: 60px;
     }
     </style>
 </head>
 <body>
     <main>
-        <section>
-            <h1><center><strong>個體心理學</strong></center></h1>
-            <center><p>一門由阿爾弗雷德·阿德勒所創立的強調人格整體性的心理學理論。</p></center>
-        </section>
-        <section>
+        <section class="home">
+            <div class="center">
+            <h1><center><strong>個體心理學</strong></center></h1></br></br>
             <ul><center>
                 <li><a href="1.1.html">首頁</a></li>|
                 <li><a href="1.2.html">創始人</a></li>|
@@ -52,10 +79,21 @@
                 <li><a href="1.8.html">相關網站</a></li>|
                 <li><a href="1.9.html">參考資料</a></li>
             </center></ul>
+            </div>
+        </section>
+        <section class="intropage">
+            <div class="intro">
+            <h2 style="margin-bottom: 2vh;" class="word60"><center>簡介</center></h2>
+            <p class="word30">個體心理學是由維也納精神病學家阿爾弗雷德·阿德勒創立的心理學體系，內容涵蓋了人類心理學的整個範圍，旨在反映人格不可分割的整體體。
+
+                在發展個體心理學的概念時，阿德勒脫離了西格蒙德·佛洛伊德的精神分析學派。他的方法涉及性格研究的整體方法，對20世紀後期的諮商和精神病學策略產生了極大的影響。
+                
+                「個體心理學」一詞不僅僅關注個體，它用來指患者作為一個不可分割的實體。阿德勒說，必須考慮患者的整個環境，包括與患者交往的人。</p>
+            </div>
         </section>
     </main>
     <footer>
-        <p><center>由adler88541@gmail.com製作</center></p>
+        <center><p class="copyright">由adler88541@gmail.com製作</p></center>
     </footer>
 </body>
 </html>
