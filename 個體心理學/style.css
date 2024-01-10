@@ -1,33 +1,83 @@
 *{
     margin: 0;
+    padding: 0;
 }
 header{
     background-color: rgb(48, 48, 48);
-    color: aliceblue;
+    color: white;
 }
 header ul{
     line-height: 50px;
 }
-header li{
-    display:inline;
+header a{
+    color: white;
     margin:  0 3vw;
 }
-header a{
-    color: aliceblue;
+main{
+    margin-bottom: 40px;
 }
 footer{
-    padding: 10px 0 20px;
-    margin: 10px 0;
+    margin: 30px 0;
+}
+li{
+    display: inline;
 }
 a{
     text-decoration: none;
+    font-size: 20px;
 }
 a:hover{
     text-decoration: underline;
 }
-#side{
-    width:1000px;
-	font-size:18px;
-	background: white url(./images/bksub.gif) repeat-y;
-	margin: 0 auto;
+h1{
+    font-size: 70px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+hr{
+    width: 90vw;
+    margin: 0 5vw;
+}
+.container{
+    display: flex;
+}
+.side{
+    text-align: center;
+    background-color: black;
+    height:auto;
+    width: 10vw;
+    font-size: 30px;
+}
+.side a{
+    color: white;
+}
+.word{
+    margin: 10px 20px;
+    width: 90vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
